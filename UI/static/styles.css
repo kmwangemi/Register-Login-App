@@ -107,10 +107,20 @@ header a:hover {
     letter-spacing: 2px;
 }
 
-form #reg {
-    margin-left: 10px;
-    position: absolute;
+#login textarea {
+    width: 100%;
+    margin: 6px 0px 12px 0px;
+    padding: 20px;
+    font-size: 1.2em;
 }
+
+#login label {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+
 
 #login input[type = "submit"]:hover {
     background: gray;
