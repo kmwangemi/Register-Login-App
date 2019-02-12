@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TodoApp</title>
+    <link rel="stylesheet" href="../static/styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li id="logo"><a href="login.html">Logout</a></li>
+            <a href="view-todos.html">View Todos</a>
+        </ul>
+    </header>
+    <div id="heading">
+        <h2>Create a new Todo</h2>
+    </div>
+    <div id="login">
+        <form action="" method="POST">
+            <input type="text" name="todo" id="todo" placeholder="Title" minlength="5" maxlength="28" required>
+            <br>
+            <label for="todo">Description here...</label>
+            <textarea name="todo" id="todo" cols="50" rows=3 required></textarea>
+            <p>
+                &copy 2019
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </div>
+</body>
+</html>

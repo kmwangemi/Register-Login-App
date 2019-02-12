@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TodoApp</title>
+    <link rel="stylesheet" href="../static/styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li id="logo"><a href="login.html">Logout</a></li>
+            <a href="post-todo.html">New Todo</a>
+        </ul>
+        <div id="search">
+            <input type="text" name="search" id="search" placeholder="Search">
+        </div>
+    </header>
+    <div id="heading">
+        <h2>List of Created Todos</h2>
+    </div>
+    <div id="jumbo">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID:</th>
+                    <th>Date Created</th>
+                    <th>Title</th>
+                    <th>Todo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>01/01/2019</td>
+                    <td>Shopping</td>
+                    <td>Buy Rice, Sugar and Salt</td>
+                    <td><a href="post-todo.html"><button class="update">Update</button></a></td>
+                    <td><a href="view-todos.html"><button class="delete">Delete</button></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
